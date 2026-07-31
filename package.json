@@ -1,0 +1,38 @@
+{
+  "name": "video-batch-app",
+  "version": "1.0.0",
+  "description": "视频批量裁剪 + 色块打码工具",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.local.videobatch",
+    "productName": "VideoBatch",
+    "files": [
+      "main.js",
+      "preload.js",
+      "processor.js",
+      "renderer/**"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/bin",
+        "to": "bin"
+      }
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ]
+    },
+    "portable": {
+      "artifactName": "VideoBatch-${version}.exe"
+    }
+  }
+}
