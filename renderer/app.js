@@ -11,6 +11,7 @@ const el = {
   maskConfig: $('mask-config'),
   maskColor: $('maskColor'),
   maskColorText: $('maskColorText'),
+  swatches: $('swatches'),
   maskSizeType: $('maskSizeType'),
   maskSizeValue: $('maskSizeValue'),
   posRow: $('posRow'),
