@@ -1,14 +1,16 @@
-# 依赖
-node_modules/
-
-# 构建产物
-dist/
-out/
-
-# FFmpeg 二进制（体积大，通过 Release 分发）
-resources/bin/*.exe
-
-# 系统 / 编辑器
 .DS_Store
-Thumbs.db
-*.log
+._*
+node_modules/
+runtime/
+FrameFlow-Windows-x64/
+.build-cache/
+.dev-user-data/
+dist/
+reports/
+*.vproject.json
+*.mp4
+*.mov
+*.mkv
+*.png
+*.zip
+*.exe

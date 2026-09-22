@@ -1,38 +1,23 @@
 {
-  "name": "video-batch-app",
-  "version": "1.0.0",
-  "description": "视频批量裁剪 + 色块打码工具",
-  "main": "main.js",
+  "name": "frameflow",
+  "productName": "课程剪辑 FrameFlow",
+  "version": "1.5.1",
+  "private": true,
+  "description": "课程剪辑：批量打码、视频拼接与免重编码快速分段，方便网课整理",
+  "main": "src/main.js",
+  "license": "UNLICENSED",
+  "author": "SharonWong",
+  "engines": { "node": ">=22" },
   "scripts": {
-    "start": "electron .",
-    "build": "electron-builder --win portable"
-  },
-  "devDependencies": {
-    "electron": "^43.2.0",
-    "electron-builder": "^26.15.3"
-  },
-  "build": {
-    "appId": "com.local.videobatch",
-    "productName": "VideoBatch",
-    "files": [
-      "main.js",
-      "preload.js",
-      "processor.js",
-      "renderer/**"
-    ],
-    "extraResources": [
-      {
-        "from": "resources/bin",
-        "to": "bin"
-      }
-    ],
-    "win": {
-      "target": [
-        "portable"
-      ]
-    },
-    "portable": {
-      "artifactName": "VideoBatch-${version}.exe"
-    }
+    "setup:windows": "node scripts/setup-windows.cjs",
+    "setup:installer": "node scripts/setup-windows.cjs --installer",
+    "start": "node scripts/workspace.cjs start",
+    "check": "node scripts/workspace.cjs check",
+    "test": "node tests/save-project-test.cjs && node tests/layout-test.cjs",
+    "test:engine": "node tests/selftest.cjs",
+    "test:timeline": "node scripts/workspace.cjs timeline",
+    "test:native": "node scripts/workspace.cjs native-test",
+    "sync": "node scripts/sync-payload.cjs",
+    "build:windows": "node scripts/build-installer.cjs"
   }
 }

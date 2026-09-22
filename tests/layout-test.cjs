@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),pkg=require('../package.json');
+assert.equal(pkg.main,'src/main.js');assert.equal(pkg.productName,'课程剪辑 FrameFlow');
+assert.equal(require('../package-lock.json').version,pkg.version);
+for(const name of ['src/main.js','src/preload.js','src/app.html','src/frameflow-app.js','src/frameflow-core.js','src/frameflow-engine.js','build/installer.nsi'])assert.ok(fs.existsSync(path.join(root,name)),name);
+const html=fs.readFileSync(path.join(root,'src/app.html'),'utf8');
+for(const match of html.matchAll(/<script src="([^"]+)"/g))assert.ok(fs.existsSync(path.join(root,'src',match[1])),match[1]);
+assert.ok(html.includes('课程剪辑 FrameFlow'));assert.ok(html.includes(pkg.version));
+assert.ok(fs.readFileSync(path.join(root,'src/frameflow-app.js'),'utf8').includes(pkg.version));
+assert.equal(require('../src/frameflow-core').initial().version,3);
+for(const [name,script] of Object.entries(pkg.scripts))for(const match of script.matchAll(/node ([\w/.-]+)/g))assert.ok(fs.existsSync(path.join(root,match[1])),name);
+console.log('LAYOUT_PASS: single entry, package versions, script paths, renderer resources, project schema.');
