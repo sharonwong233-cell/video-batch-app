@@ -1,0 +1,8 @@
+{
+  "name": "frameflow",
+  "productName": "FrameFlow",
+  "version": "1.5.1",
+  "main": "main.js",
+  "description": "FrameFlow offline course video editor",
+  "license": "UNLICENSED"
+}

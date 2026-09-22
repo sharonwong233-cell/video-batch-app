@@ -1,0 +1,364 @@
+{
+  "version": "1.5.1",
+  "installer": "FrameFlow-v1.5.1-Windows-x64-Setup.exe",
+  "sha256": "7b961179d653af201f940e8c31994f7793e465e4b65d440c484e0a62d86594b6",
+  "size": 159076266,
+  "payloadCount": 88,
+  "payloadBytes": 579874328,
+  "nsisOfficialChecksumVerified": true,
+  "windowsRuntimeTested": false,
+  "files": [
+    {
+      "path": "DEPENDENCIES.md",
+      "sha256": "1234ca66013f3a8302e3dd4cbf5eac689ab8ca9996a06b791478a88836f4d59e"
+    },
+    {
+      "path": "FrameFlow.exe",
+      "sha256": "e885ffc2a09dab4c14de706e3662a5929d1e65ea4ea347c56fd0964640eb923b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+    },
+    {
+      "path": "LICENSES.chromium.html",
+      "sha256": "b911161e6594ec76b872498b423c54406168f2974e0d407a847f7de1e5ff94dd"
+    },
+    {
+      "path": "README.txt",
+      "sha256": "db51c460ae8a2bfcabe268b6eb2686b7ce5d875a766441f80820510916da72a6"
+    },
+    {
+      "path": "chrome_100_percent.pak",
+      "sha256": "d76fe8fa3a14cd73e4c858746e2ab2d2fa6f2df38a906fa5814b50a8a895fc96"
+    },
+    {
+      "path": "chrome_200_percent.pak",
+      "sha256": "b74ad439f3d3762657f3ba533a6af3ac63315c838ed46519891366f43d834a0e"
+    },
+    {
+      "path": "d3dcompiler_47.dll",
+      "sha256": "a05f99734f7c4822fefc12b367af21fd0976ed6608752fb1e1e80b6ece7ecbbb"
+    },
+    {
+      "path": "dxcompiler.dll",
+      "sha256": "058d8cb8b821e390830b3e1b0bf2d9107789cc5dde24dfb4f873ddac2c389904"
+    },
+    {
+      "path": "dxil.dll",
+      "sha256": "77e039c905030a641e53658a008b74e90635a5ea9b6b79eabd0f2003bdfca59a"
+    },
+    {
+      "path": "ffmpeg.dll",
+      "sha256": "31f21b81d743dcd2dc16190b246854e6b86211d2dc2f26b84b96e02dfa43d798"
+    },
+    {
+      "path": "icudtl.dat",
+      "sha256": "bd8c145abdf3f8383276ce01dfa4ae48709bef9fef1c0711eb7c3fab4f6eb7c2"
+    },
+    {
+      "path": "libEGL.dll",
+      "sha256": "5e095f229d38c57c2f171f38b4a3ce0f7bed03ad2d9e1e99d674ddce85b9f968"
+    },
+    {
+      "path": "libGLESv2.dll",
+      "sha256": "5f87edeb72ad594c757e5594407ebf63c42ea1b2fc6c64452e971fc87e1a3943"
+    },
+    {
+      "path": "locales/af.pak",
+      "sha256": "dcf39c3edbb6b0a625baee0263a9b426eadd1a6d1bfbf03a209501a18bc4b0e4"
+    },
+    {
+      "path": "locales/am.pak",
+      "sha256": "b1d444f2346105a6e15f9b14fc5653e1edaa2b435290fb8f1238347a4d4ca8f9"
+    },
+    {
+      "path": "locales/ar.pak",
+      "sha256": "74bc5cd1c0a5957aa41d719a40f4975ee71023ab6e144660308092d32c86c055"
+    },
+    {
+      "path": "locales/bg.pak",
+      "sha256": "e4a5bea23a26a06af611a7cb518b22a1d53ec5df45a6322f0e264b99c7318441"
+    },
+    {
+      "path": "locales/bn.pak",
+      "sha256": "137cf9cdba13ea7286584c5cac05dd34c6394f89036e367aa032ffb34f17dcc9"
+    },
+    {
+      "path": "locales/ca.pak",
+      "sha256": "8a472eabdc3f30d94c56367d526f6d345ad65732827097aac747438f233a536f"
+    },
+    {
+      "path": "locales/cs.pak",
+      "sha256": "5804ba5b76974b48b15922cf91c3e9dbbf549e2d88218dc767e4650520503135"
+    },
+    {
+      "path": "locales/da.pak",
+      "sha256": "57f4637094de41122da569415c16c5524794bc90aa3af226da14703d04981db0"
+    },
+    {
+      "path": "locales/de.pak",
+      "sha256": "6201f0c314340a272e6cd7b57e13c4e20e3bc64f053f2c6f8e98f1cf52840908"
+    },
+    {
+      "path": "locales/el.pak",
+      "sha256": "48d430dca8785ce24fc605851b2bb739164b8e5fb5588909329a82e58f6902d0"
+    },
+    {
+      "path": "locales/en-GB.pak",
+      "sha256": "7ec690d052afdb64188a148feb9a97f8d357d010a383dae29c07abb724cbe60b"
+    },
+    {
+      "path": "locales/en-US.pak",
+      "sha256": "74404352908184e834397df60b238f23462e77d69ac4136b4f20af2db6191436"
+    },
+    {
+      "path": "locales/es-419.pak",
+      "sha256": "55a36991fa1e523fcdbc49e4227d66bb83d28bfdc7d08dcc659837d1beda3281"
+    },
+    {
+      "path": "locales/es.pak",
+      "sha256": "9ff88eabacab95f8bbef9e95f63d3619fa8d640ec03523d80abb26243b059a65"
+    },
+    {
+      "path": "locales/et.pak",
+      "sha256": "0292298736847491828465a3dcf04cf4a0d9bd63d4b1a9d183c7eeb389343d26"
+    },
+    {
+      "path": "locales/fa.pak",
+      "sha256": "7918a47631aedf01a95cbfef88d3457bfafb3f4461084ab314051d7d80309830"
+    },
+    {
+      "path": "locales/fi.pak",
+      "sha256": "0535e2acd4517ce8099aa0a4a3e562af37ca6a699faca1de3b348b8bfacf2a8b"
+    },
+    {
+      "path": "locales/fil.pak",
+      "sha256": "f9e86324deee168d160a51402588da9987646c8c5899b76b6255d7e3a46a7bb5"
+    },
+    {
+      "path": "locales/fr.pak",
+      "sha256": "dcd5c008c6b74000c2d95b6193059c9435b417d54e6991283e92bafcc5fbcc50"
+    },
+    {
+      "path": "locales/gu.pak",
+      "sha256": "34e4d54d66a0b0471542ee76c55cc9d3b27fcaf15cdf63c3d7e7b46cfdfb3f4f"
+    },
+    {
+      "path": "locales/he.pak",
+      "sha256": "b90f6b709886c37ac52fb8eb1e4d40931b0558b084dcda69e3e4b5ba537e23f8"
+    },
+    {
+      "path": "locales/hi.pak",
+      "sha256": "57432f987cd26251065245e62b9ec47c1a90bd6ab2f2c4227c3c9becca3994f6"
+    },
+    {
+      "path": "locales/hr.pak",
+      "sha256": "9ef77921560c91e5d6e42df6504589b8b7efb84c9b5119ac51e9a10d8c83a089"
+    },
+    {
+      "path": "locales/hu.pak",
+      "sha256": "31e407f43bbd0cd0692755f961bb39d10af1f9f0af205455dd70fb4c7eeb85a5"
+    },
+    {
+      "path": "locales/id.pak",
+      "sha256": "e7957c9c58f890b5d053ea50c5fcb4b66cbc3c47478c42a5962810cb15814249"
+    },
+    {
+      "path": "locales/it.pak",
+      "sha256": "88220058e902f05d7a2e61ec21667a5ca44c543ad0042fe530d698aa55836aa4"
+    },
+    {
+      "path": "locales/ja.pak",
+      "sha256": "092cd118f2a19b2e914c8b43da7b5369b61c745b42ee64b505a2c599b7cfb1b9"
+    },
+    {
+      "path": "locales/kn.pak",
+      "sha256": "9744dbadbb7c31cc6393a0682daf91045be270bab934dff7dbad79b76287616e"
+    },
+    {
+      "path": "locales/ko.pak",
+      "sha256": "ee01af13e4e4b804e48d7126a38a059e210c7f4fba0c37fd2dfa9ef4c106b9d3"
+    },
+    {
+      "path": "locales/lt.pak",
+      "sha256": "bc5d99751f1b252ed074bfc4bf6dc94321b3f785a0a0d4300209acae40220f74"
+    },
+    {
+      "path": "locales/lv.pak",
+      "sha256": "e91342ed84e1847968b40194250b4d76bbd2ea13133675b8b099dca45ee0f197"
+    },
+    {
+      "path": "locales/ml.pak",
+      "sha256": "a45bcebcf69244bdbca6c0a4fe68c89430c6531e9d3cbddaa85758385b877934"
+    },
+    {
+      "path": "locales/mr.pak",
+      "sha256": "fa87d519a8545b2748c52ccd7704b320877b2d03385991ceabe75c2745200331"
+    },
+    {
+      "path": "locales/ms.pak",
+      "sha256": "2ab44645c1ed7b68c9121ee0ab9cdf8c7b9d1721d131b08f258b8a85b8ed0af0"
+    },
+    {
+      "path": "locales/nb.pak",
+      "sha256": "8eaa23c418a3fafb9e85b5445e73fb2f5e13be1f033ff2487c4081148aaa2f4e"
+    },
+    {
+      "path": "locales/nl.pak",
+      "sha256": "43a15f2dfda6ce1c908e9913eb02aba9602e3f24c6c96f7fed7852d61a1263f6"
+    },
+    {
+      "path": "locales/pl.pak",
+      "sha256": "5e47475490d1514e3670c44f55a2061672c8e7f6219211b3d907bacbe5aa0a5c"
+    },
+    {
+      "path": "locales/pt-BR.pak",
+      "sha256": "36ac257c8863e6029b1a855c47ba58b99534c42b38e0cc9dddd20c5916658dbd"
+    },
+    {
+      "path": "locales/pt-PT.pak",
+      "sha256": "98daa1072e7c405e3f5e030bfe25ef1e12b31a96e0b1db245d6805a564390f75"
+    },
+    {
+      "path": "locales/ro.pak",
+      "sha256": "da5c79d06ae972aa460724ef378f91bf4afda911b167a896963f6e0d4daf9aec"
+    },
+    {
+      "path": "locales/ru.pak",
+      "sha256": "b0977b6a115c6836189200423b44202c1329ff702b68ab9a72f996fe42c6ec81"
+    },
+    {
+      "path": "locales/sk.pak",
+      "sha256": "de1a35198ade6d854211fc6b2e65fbd18eb2b52c496e3773b23a10362fb463bc"
+    },
+    {
+      "path": "locales/sl.pak",
+      "sha256": "2bc385d457dc844794f9396458c4090e6233afec5a08b4a5a92e45ef31e07b78"
+    },
+    {
+      "path": "locales/sr.pak",
+      "sha256": "c3b4a5aba1e86ea0088e5c33002bb055ed567840b2859b277014be0a7283013e"
+    },
+    {
+      "path": "locales/sv.pak",
+      "sha256": "3af85c15ce3e76344404c37325a60932ce53763539c8cd8b3120424f709f73de"
+    },
+    {
+      "path": "locales/sw.pak",
+      "sha256": "a806d782b21930ec6243b8e5b393e7fa970ce9d297e96b02e6596fa6ce6c8a86"
+    },
+    {
+      "path": "locales/ta.pak",
+      "sha256": "516660683214c01341300fa8d15c7e39aecc38792b76fe74bdcc464024f4294f"
+    },
+    {
+      "path": "locales/te.pak",
+      "sha256": "5439181ded31f8cc5dbcc1eed358753d4b7449ad29380baabe4cb893d8751a06"
+    },
+    {
+      "path": "locales/th.pak",
+      "sha256": "946b4a45a9d43b15359927f33307fc35f50d7e880f02890b07bdfd1160f2db59"
+    },
+    {
+      "path": "locales/tr.pak",
+      "sha256": "37619e7084337a839d8ccf7915381cf9975d0ffc9451bd37d210bc7322645219"
+    },
+    {
+      "path": "locales/uk.pak",
+      "sha256": "1e25a84007245d7a2ac4fb7644bf242e3c5aca8fa58b1bba7163d99a17a6ed3d"
+    },
+    {
+      "path": "locales/ur.pak",
+      "sha256": "d57cd219249e207d34c21a619935d0f0a7814a0ccdd36051a42400c60a599e47"
+    },
+    {
+      "path": "locales/vi.pak",
+      "sha256": "37f2c01a308ad8bb93d9525d81480880f97d54191dbe7c1c1e75aa9fcf009450"
+    },
+    {
+      "path": "locales/zh-CN.pak",
+      "sha256": "0386ef8bf3ce4e24c604ee039273e452d12f8b1d6e5ac7e746995e8b39fab379"
+    },
+    {
+      "path": "locales/zh-TW.pak",
+      "sha256": "740c2da1eedff44b57d8700b6f81f1acf17e67bdf534220553b448da42f62b66"
+    },
+    {
+      "path": "resources/app/app.html",
+      "sha256": "2b3ad0dd186b7c899dab8d7730410d6e7bb346dc4ce7707eb308508af6f5d5ac"
+    },
+    {
+      "path": "resources/app/frameflow-app.js",
+      "sha256": "21a354e2e41c017adda59bbaa82fd4c35be384ee8c8fb5a2a15cfcfc35cdd515"
+    },
+    {
+      "path": "resources/app/frameflow-core.js",
+      "sha256": "a52178c2f44d290c51b4897032dd6c913f8d5a96b14b6a583c4403895a48cd74"
+    },
+    {
+      "path": "resources/app/frameflow-engine.js",
+      "sha256": "d5cd56604b0a52de98b609dcc26c301601afea199476ac7aebb68ff5ded0d3f2"
+    },
+    {
+      "path": "resources/app/main.js",
+      "sha256": "44f47e367668057bfb5089568d597b2c867a11f48cc371effb905a766d67b12d"
+    },
+    {
+      "path": "resources/app/package.json",
+      "sha256": "b101bd72f6b7fed2ec2bc1540a7a95fa1439d993f249f2ad187f7636d7cab1fc"
+    },
+    {
+      "path": "resources/app/preload.js",
+      "sha256": "48421e1c015667bfa00ff3427d37a43a37b29ec7e9e3da8db4f6d6193496ec54"
+    },
+    {
+      "path": "resources/app/runtime/LICENSE",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "resources/app/runtime/README.txt",
+      "sha256": "1c8c50e4df1623673ec236bafe774f3c4ee41a1e6b0cde05e31b7d89b31efa06"
+    },
+    {
+      "path": "resources/app/runtime/ffmpeg.exe",
+      "sha256": "72a489eccd008c2ec2c0a5856c5c75bc3d8bbfa90166c4566865c246445e6aa3"
+    },
+    {
+      "path": "resources/app/runtime/ffprobe.exe",
+      "sha256": "19202b23c0043f15ad1b7bce2344f406fd52bd6efd8f995ce02e7392a1cec52f"
+    },
+    {
+      "path": "resources.pak",
+      "sha256": "0d9e7c94b4cce317da85238f36cda73c942c8fccfe976431313cc79f1173bd1d"
+    },
+    {
+      "path": "snapshot_blob.bin",
+      "sha256": "acc3f67cbe66b00f922d806f90c81a8e00550d708b9691665564e485e54a8cb2"
+    },
+    {
+      "path": "v8_context_snapshot.bin",
+      "sha256": "315058ae62b511f60c4e7b8960370c4a6ce0c8cb83a9b78822264ad62118f450"
+    },
+    {
+      "path": "version",
+      "sha256": "d1308480b7d4afe2dc18c4fce376bcf95e3120236d8111570ac9dd2405deafd8"
+    },
+    {
+      "path": "vk_swiftshader.dll",
+      "sha256": "1aa115d30719543180a8ab944ba97cca293bac77cf1238fcfed83910fd07df46"
+    },
+    {
+      "path": "vk_swiftshader_icd.json",
+      "sha256": "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9"
+    },
+    {
+      "path": "vulkan-1.dll",
+      "sha256": "c3739d069c01d7600bcd7de6bba48059110da413436e912c1bb0eee31d8146ea"
+    },
+    {
+      "path": "安装与卸载说明.txt",
+      "sha256": "e9452f70e90d31b0627876105bc4ff60d06436f7b630a2239dce2ab914b28315"
+    }
+  ]
+}

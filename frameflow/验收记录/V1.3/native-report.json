@@ -1,0 +1,46 @@
+{
+  "checks": [
+    "启动为空素材",
+    "前进实际解码到新帧",
+    "快退实际解码恢复原帧",
+    "进度条跳转且画面变化",
+    "真实播放与暂停",
+    "全素材时间线",
+    "仅一个顶部功能按钮",
+    "添加打码与时间条",
+    "真实 FFmpeg 预览进入弹窗",
+    "桌面界面真实导出完成",
+    "结果列表显示真实文件",
+    "自动保存落盘",
+    "重载恢复全部素材、打码、输出设置"
+  ],
+  "outputs": [
+    {
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-iKmG0n/桌面应用导出/桌面验收_001.mp4",
+      "name": "桌面验收_001.mp4",
+      "duration": 3,
+      "size": 393289,
+      "width": 320,
+      "height": 180,
+      "fps": 25
+    },
+    {
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-iKmG0n/桌面应用导出/桌面验收_002.mp4",
+      "name": "桌面验收_002.mp4",
+      "duration": 3,
+      "size": 140873,
+      "width": 320,
+      "height": 180,
+      "fps": 25
+    },
+    {
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-iKmG0n/桌面应用导出/桌面验收_003.mp4",
+      "name": "桌面验收_003.mp4",
+      "duration": 1,
+      "size": 2922,
+      "width": 320,
+      "height": 180,
+      "fps": 25
+    }
+  ]
+}

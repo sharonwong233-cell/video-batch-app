@@ -1,0 +1,366 @@
+{
+  "version": "1.5.1",
+  "scope": "Text source/docs/scripts/reports; media excluded pending explicit approval; runtime and installers pending release upload",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 204,
+      "sha256": "04497b9f80d7c411e5458e85bce514ac396c8fd85da1134dc7ba859d46d997c7"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 1182,
+      "sha256": "7c88007c8b237621f43f85bb5e69ed23f3c1c44250df0f5885d99bd68f353829"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 1988,
+      "sha256": "f31354845852d985ca80c7c1880e7dc0da4e11077a4e1f06c865327394b6234c"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "size": 3185,
+      "sha256": "1234ca66013f3a8302e3dd4cbf5eac689ab8ca9996a06b791478a88836f4d59e"
+    },
+    {
+      "path": "FrameFlow-v1.5.1-Windows-Dev-20260921.zip.sha256",
+      "size": 108,
+      "sha256": "238d38afc0e98fe0c884f38aee4d45777c867cfb38a9a5a0d2e9f86b984b8525"
+    },
+    {
+      "path": "FrameFlow-v1.5.1-Windows-x64-Setup.exe.sha256",
+      "size": 105,
+      "sha256": "f216e3049c4c8defb8b5688c03c877c77b63099f69166296d27056a05b8be3bb"
+    },
+    {
+      "path": "GITHUB.md",
+      "size": 2183,
+      "sha256": "d4b80d24f33eea37b9df9cb204cd9c19378c104ebd96092f5f12a79a0af0bb15"
+    },
+    {
+      "path": "HANDOFF.md",
+      "size": 4525,
+      "sha256": "5b47123f5648f348bfa0d503c7898d00618b5c07765a9de5f7485773023e4fca"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size": 359,
+      "sha256": "81ffa781de0928b3668b5c7fea1cd76ec89b2408e6ddcf40f4bc560e26bb4549"
+    },
+    {
+      "path": "PRODUCT.md",
+      "size": 3296,
+      "sha256": "a2a8f85ffc18f1659aaf4c3d6233780945705bb7db007f42bac428d42b20cb3f"
+    },
+    {
+      "path": "README.md",
+      "size": 3927,
+      "sha256": "ff65210e63ab263ab309100d078242cdbea4d710a0e18d8ad09eca16e082c4ae"
+    },
+    {
+      "path": "V1.2修复与验收.md",
+      "size": 1036,
+      "sha256": "6ab079c6a7aede236ab26a0ecc34a7b1eeb46616b54f943805453cde661f72bb"
+    },
+    {
+      "path": "V1.3开发与验收.md",
+      "size": 5534,
+      "sha256": "c94d708c6bebd1f9e5d822c4114ec0649d44fc023c8187da096ed92c0c079275"
+    },
+    {
+      "path": "V1.4.1时间线修复与验收.md",
+      "size": 2714,
+      "sha256": "8489b8ecf1656f47ebae0e5ed106042c40d0ac8c1f6acdb79aff57490ebd29e6"
+    },
+    {
+      "path": "V1.4.2末端总时长.md",
+      "size": 1375,
+      "sha256": "46b23e8116ba8b38b93aea4f93c6c9d731434938b1c3b6465a500aeea741ffb9"
+    },
+    {
+      "path": "V1.4修改与验收.md",
+      "size": 4359,
+      "sha256": "9fa4fde8d833c2c75fa361c11250cc42b689e7ed875d153ff6b91a3f27543bfb"
+    },
+    {
+      "path": "V1.5.0修改与验收.md",
+      "size": 3862,
+      "sha256": "d681091f53c96a3403dc5aa822d9c497d5bc9b581a89a09ffdbab8de1e0f34cb"
+    },
+    {
+      "path": "V1.5.1修改与验收.md",
+      "size": 3017,
+      "sha256": "af3e3233c0ab82d1a0ff1117d58744a67d901727e10f1a6c99291730f5abc100"
+    },
+    {
+      "path": "Windows安装版交付说明.md",
+      "size": 3758,
+      "sha256": "817aa176d508b41fdd6a076631d12a0bf02e3476a783b9957f22507e847f5407"
+    },
+    {
+      "path": "browser-timeline-test.cjs",
+      "size": 4067,
+      "sha256": "4db92a6fb50d88b97f8e5aeaffd92751e853cd4fd85c3ce983857224060c465c"
+    },
+    {
+      "path": "build-installer.cjs",
+      "size": 3562,
+      "sha256": "9f61f59ff803048805d8450686c1ea302f06ab55d431ebfa7929edb5299a6fef"
+    },
+    {
+      "path": "dev.cmd",
+      "size": 384,
+      "sha256": "4c7a2f8f2083e91ed71ea57159f696e19ac45e8338ef98b33040c19c410379b0"
+    },
+    {
+      "path": "docs/AGENTS-for-transfer.md",
+      "size": 1182,
+      "sha256": "7c88007c8b237621f43f85bb5e69ed23f3c1c44250df0f5885d99bd68f353829"
+    },
+    {
+      "path": "docs/WINDOWS-HANDOFF.md",
+      "size": 5507,
+      "sha256": "42f8a91f674ba930ca612588e1fc2464e90c8e58ac9b4df5567a0fbf14c97d84"
+    },
+    {
+      "path": "download-deps.cjs",
+      "size": 1866,
+      "sha256": "01bc0d00b6bc289b85f6857f1fff5f59fd8baa08b94848a0b8bbe70f5a1d48ed"
+    },
+    {
+      "path": "frameflow-app.js",
+      "size": 47952,
+      "sha256": "21a354e2e41c017adda59bbaa82fd4c35be384ee8c8fb5a2a15cfcfc35cdd515"
+    },
+    {
+      "path": "frameflow-core.js",
+      "size": 7953,
+      "sha256": "a52178c2f44d290c51b4897032dd6c913f8d5a96b14b6a583c4403895a48cd74"
+    },
+    {
+      "path": "frameflow-engine.js",
+      "size": 22040,
+      "sha256": "d5cd56604b0a52de98b609dcc26c301601afea199476ac7aebb68ff5ded0d3f2"
+    },
+    {
+      "path": "native-acceptance.cjs",
+      "size": 8860,
+      "sha256": "32bfdc7aca5346ba5743d98467d782838b8ba746bab99746f86233ca5eb520d2"
+    },
+    {
+      "path": "selftest.cjs",
+      "size": 11730,
+      "sha256": "3200109cfd28694634026da4eeefedaa50d589cc61e918860e46b0ed3fa4405b"
+    },
+    {
+      "path": "timeline-acceptance.cjs",
+      "size": 5767,
+      "sha256": "5b68d6c81a871d1a4cd7c78ff3b5fdf2ee7af9977d8f4348f81b1fb40bd6923f"
+    },
+    {
+      "path": "tools/browser-path.cjs",
+      "size": 841,
+      "sha256": "0c7b25dfea2684c7701055f43bb7b1cef090925f73f211ca5d7fb206eab144a1"
+    },
+    {
+      "path": "tools/prepare-github.cjs",
+      "size": 2079,
+      "sha256": "79b0516b6153dba3b79922d64d1032df27493a67ee5c3c1c5b4ac6defac6097e"
+    },
+    {
+      "path": "tools/save-project-test.cjs",
+      "size": 2529,
+      "sha256": "66adcb16dfb7b35c760fc688bc7aa5cdb814db78b0661fab9472f1cec2f013c3"
+    },
+    {
+      "path": "tools/stage-handoff.cjs",
+      "size": 2379,
+      "sha256": "93be4ce709d825aab62a211f3c2ff89c3110ebd66a7f7cc266a3557103255eee"
+    },
+    {
+      "path": "tools/sync-payload.cjs",
+      "size": 1507,
+      "sha256": "c3213aec830693e5b7278a5e659999494f59d4de7c4245ea9c9dc9b3863db9dc"
+    },
+    {
+      "path": "tools/verify-handoff.cjs",
+      "size": 796,
+      "sha256": "f59b9b558774113447c7391386a1db5ed399083046156bdffc4ca6298c019d95"
+    },
+    {
+      "path": "tools/version-check.cjs",
+      "size": 831,
+      "sha256": "1aa34b6c75c75f745c5fb72e5356cd6fb5cec225be673f1053b0ec31c2f1787f"
+    },
+    {
+      "path": "tools/workspace.cjs",
+      "size": 3004,
+      "sha256": "992390b5910e82e7f8e1e296a6b9569eca8ad8d1409bbacf9c27214a7ab11fc2"
+    },
+    {
+      "path": "v15-acceptance.cjs",
+      "size": 9997,
+      "sha256": "05da53c70d431993251d6cdd5ca37e4fecbcb040540f560e3639d9e976a95bb7"
+    },
+    {
+      "path": "windows版/Windows使用说明.txt",
+      "size": 5743,
+      "sha256": "db51c460ae8a2bfcabe268b6eb2686b7ce5d875a766441f80820510916da72a6"
+    },
+    {
+      "path": "windows版/installer.nsi",
+      "size": 7172,
+      "sha256": "431ed0ea33428af731ffb87cabcd28f0ee9903c8225e96f062ffe0efa4d19198"
+    },
+    {
+      "path": "windows版/main.js",
+      "size": 18175,
+      "sha256": "44f47e367668057bfb5089568d597b2c867a11f48cc371effb905a766d67b12d"
+    },
+    {
+      "path": "windows版/package.json",
+      "size": 184,
+      "sha256": "b101bd72f6b7fed2ec2bc1540a7a95fa1439d993f249f2ad187f7636d7cab1fc"
+    },
+    {
+      "path": "windows版/preload.js",
+      "size": 322,
+      "sha256": "48421e1c015667bfa00ff3427d37a43a37b29ec7e9e3da8db4f6d6193496ec54"
+    },
+    {
+      "path": "windows版/安装与卸载说明.txt",
+      "size": 1915,
+      "sha256": "e9452f70e90d31b0627876105bc4ff60d06436f7b630a2239dce2ab914b28315"
+    },
+    {
+      "path": "windows版/安装包说明.txt",
+      "size": 961,
+      "sha256": "330219a14d8872c2cfb9d1d82c1fbf8d337f98837224425bcde576e21a6d79fe"
+    },
+    {
+      "path": "构建Windows开发版.sh",
+      "size": 1753,
+      "sha256": "d468516e638549a1edfb1006296773c7f002d5259272e903561610ea32f4cbca"
+    },
+    {
+      "path": "视频处理应用-高保真交互原型.html",
+      "size": 41303,
+      "sha256": "2b3ad0dd186b7c899dab8d7730410d6e7bb346dc4ce7707eb308508af6f5d5ac"
+    },
+    {
+      "path": "验收记录/V1.3/native-report.json",
+      "size": 1433,
+      "sha256": "e5786e47b514f1d414af2c409bd024a61963d9e8309e271ce3ab22651866438b"
+    },
+    {
+      "path": "验收记录/V1.3/report.json",
+      "size": 2511,
+      "sha256": "b3e942f86ad6f446f5f75b4769245a4a8a0f1bf762ba8e2294f1475685a3d7d0"
+    },
+    {
+      "path": "验收记录/V1.4/native-report.json",
+      "size": 3245,
+      "sha256": "ed88617d0cfabca4d77558eb7abd24b0f4bb463a831ff5506ab516658607b823"
+    },
+    {
+      "path": "验收记录/V1.4/report.json",
+      "size": 3536,
+      "sha256": "e53923a1403ac214f1db5b7eb8d3270928dac7221fa914bed9bd9eab6e86bd55"
+    },
+    {
+      "path": "验收记录/V1.4.1/native-report.json",
+      "size": 3597,
+      "sha256": "3e1a902de5d6234074aec7f9c1f046b8213aa159b44222f4170be2d20e21710e"
+    },
+    {
+      "path": "验收记录/V1.4.1/timeline-report.json",
+      "size": 73242,
+      "sha256": "256f3d1836c8b58947fbdd2bc627d6b2da6a612b64e7366890253ee5a0e77bb7"
+    },
+    {
+      "path": "验收记录/V1.4.1安装包/installer-build.json",
+      "size": 11793,
+      "sha256": "21c45808ea1007e5d2d642364c2360144930f3461e2559b64655852863737653"
+    },
+    {
+      "path": "验收记录/V1.4.1安装包/installer-build.log",
+      "size": 1723,
+      "sha256": "332ce4b02df819063b8424d6255d78680edf575351e242aeb828d930dd6c1cd9"
+    },
+    {
+      "path": "验收记录/V1.4.1安装包/installer-delete.nsh",
+      "size": 3232,
+      "sha256": "d2fe11293bbe378c99de978308c97c6795e0589f7a76d259e2f86e6fab36dcc2"
+    },
+    {
+      "path": "验收记录/V1.4.2/timeline-report.json",
+      "size": 101030,
+      "sha256": "f1c8b9c71ea5512674a8a6a20412c617c3bca431e3115664f236338de1f06e9f"
+    },
+    {
+      "path": "验收记录/V1.4.2安装包/installer-build.json",
+      "size": 11793,
+      "sha256": "ee0d4620c25d1cbd47571097b9670ad32d19c5c1c9e8ccc32ea0670b9a4bc23c"
+    },
+    {
+      "path": "验收记录/V1.4.2安装包/installer-build.log",
+      "size": 1723,
+      "sha256": "824a0c4d91d76d2a0aaac56783798a9382e822260295b7f54baa32c1055f3f73"
+    },
+    {
+      "path": "验收记录/V1.5.0/engine-report.json",
+      "size": 3536,
+      "sha256": "9e8acea9b929049c69adf7757823dab962e0d620a693bca194b5bad3ef4cf6ec"
+    },
+    {
+      "path": "验收记录/V1.5.0/features-report.json",
+      "size": 1911,
+      "sha256": "f1bca3cbe0459718fdf1f89840915a1ec9862856afcc9bb3e10290294d0f815e"
+    },
+    {
+      "path": "验收记录/V1.5.0/timeline-report.json",
+      "size": 101030,
+      "sha256": "f1c8b9c71ea5512674a8a6a20412c617c3bca431e3115664f236338de1f06e9f"
+    },
+    {
+      "path": "验收记录/V1.5.0安装包/installer-build.json",
+      "size": 11793,
+      "sha256": "b3707e00a3dd41cf7d618775ff9a10c0c666b48618370d0d4c04cc9437754012"
+    },
+    {
+      "path": "验收记录/V1.5.0安装包/installer-build.log",
+      "size": 1723,
+      "sha256": "566f7f220f8b03a1073010098d07ec55dd305ac65edcef57def1e26b3c0c5586"
+    },
+    {
+      "path": "验收记录/V1.5.1/engine-report.json",
+      "size": 3536,
+      "sha256": "2df01860b7a34c965bf7c5b99572d2d5b9826cdddd1d75dbff259c37351008b3"
+    },
+    {
+      "path": "验收记录/V1.5.1/features-report.json",
+      "size": 1917,
+      "sha256": "32417101720d9c3fd9d1b1d1dc234383bf768bc75810ec0aef53d85c99c45283"
+    },
+    {
+      "path": "验收记录/V1.5.1/timeline-report.json",
+      "size": 101030,
+      "sha256": "f1c8b9c71ea5512674a8a6a20412c617c3bca431e3115664f236338de1f06e9f"
+    },
+    {
+      "path": "验收记录/V1.5.1/迁移包校验.json",
+      "size": 598,
+      "sha256": "36107872e29d4930c9daa0254cda78b1188ee70332464435ab2a78a0be5d48ae"
+    },
+    {
+      "path": "验收记录/V1.5.1安装包/installer-build.json",
+      "size": 11793,
+      "sha256": "7e7aea4d13a7ede5b208679ffd6c6f876e353d21ebd1926f4e1ea238335a2a00"
+    },
+    {
+      "path": "验收记录/V1.5.1安装包/installer-build.log",
+      "size": 1723,
+      "sha256": "0652d46157c16e6173e1b411839785d4e9a230066b595aaa32d74ac09bb779e3"
+    }
+  ]
+}

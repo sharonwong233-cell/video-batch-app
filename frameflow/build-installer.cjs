@@ -1,0 +1,25 @@
+'use strict';
+// Windows: dev.cmd installer. macOS: node build-installer.cjs. No npm packages required.
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),{spawnSync}=require('node:child_process'),assert=require('node:assert/strict');
+const root=__dirname,cache=path.join(root,'.build-cache'),nsis=path.join(cache,'nsis-3.0.4.1'),payload=path.join(root,'FrameFlow-Windows-x64');
+const version=JSON.parse(fs.readFileSync(path.join(root,'windows版/package.json'),'utf8')).version;
+const archive=path.join(cache,'nsis-3.0.4.1-api.7z');
+fs.mkdirSync(cache,{recursive:true});
+assert.equal(crypto.createHash('sha512').update(fs.readFileSync(archive)).digest('base64'),'VKMiizYdmNdJOWpRGz4trl4lD++BvYP2irAXpMilheUP0pc93iKlWAoP843Vlraj8YG19CVn0j+dCo/hURz9+Q==','NSIS official SHA512');
+const target=path.join(payload,'resources/app');
+require('./tools/sync-payload.cjs').sync();
+const files=[],dirs=[];
+function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const full=path.join(dir,entry.name),relative=path.relative(payload,full);assert.ok(!entry.isSymbolicLink(),'No symlink payload');if(entry.isDirectory()){dirs.push(relative);walk(full);}else{assert.ok(entry.isFile());files.push(relative);}}}walk(payload);
+assert.ok(files.includes('FrameFlow.exe')&&files.includes('resources/app/runtime/ffmpeg.exe')&&files.includes('resources/app/runtime/ffprobe.exe'));
+const escape=s=>s.replaceAll('$','$$').replaceAll('"','$\\"').replaceAll('/','\\');
+const manifest=path.join(cache,'installer-delete.nsh'),output=path.join(root,`FrameFlow-v${version}-Windows-x64-Setup.exe`);
+fs.writeFileSync(manifest,files.map(f=>`Delete "$INSTDIR\\${escape(f)}"`).concat(dirs.sort((a,b)=>b.split(path.sep).length-a.split(path.sep).length).map(d=>`RMDir "$INSTDIR\\${escape(d)}"`)).join('\n')+'\n');
+const size=files.reduce((n,f)=>n+fs.statSync(path.join(payload,f)).size,0);
+const flag=process.platform==='win32'?'/':'-',compiler=path.join(nsis,process.platform==='win32'?'makensis.exe':process.platform==='darwin'?'mac/makensis':'linux/makensis');
+const result=spawnSync(compiler,[flag+'V3',`${flag}DAPP_VERSION=${version}`,`${flag}DPAYLOAD=${payload}`,`${flag}DSETUP_OUT=${output}`,`${flag}DDELETE_MANIFEST=${manifest}`,`${flag}DPAYLOAD_KB=${Math.ceil(size/1024)}`,path.join(root,'windows版/installer.nsi')],{cwd:root,env:{...process.env,NSISDIR:nsis},encoding:'utf8',maxBuffer:10*1024*1024});
+fs.writeFileSync(path.join(cache,'installer-build.log'),result.stdout+'\n'+result.stderr);process.stdout.write(result.stdout||'');process.stderr.write(result.stderr||'');if(result.error)throw result.error;assert.equal(result.status,0,'NSIS compile');
+const exe=fs.readFileSync(output);assert.equal(exe.toString('ascii',0,2),'MZ');assert.equal(exe.toString('ascii',exe.readUInt32LE(60),exe.readUInt32LE(60)+4),'PE\0\0');assert.ok(exe.length>50*1024*1024);
+const sha=crypto.createHash('sha256').update(exe).digest('hex');fs.writeFileSync(output+'.sha256',sha+'  '+path.basename(output)+'\n');
+const reportDir=path.join(root,`验收记录/V${version}安装包`);fs.mkdirSync(reportDir,{recursive:true});
+fs.writeFileSync(path.join(reportDir,'installer-build.json'),JSON.stringify({version,installer:path.basename(output),sha256:sha,size:exe.length,payloadCount:files.length,payloadBytes:size,nsisOfficialChecksumVerified:true,windowsRuntimeTested:false,files:files.map(f=>({path:f,sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(payload,f))).digest('hex')}))},null,2));
+console.log('INSTALLER_BUILD_PASS '+output);

@@ -1,0 +1,42 @@
+{
+  "checks": [
+    "模糊默认及上限为10，马赛克不受影响",
+    "批量打码覆盖目标完整时长且保留源范围",
+    "图片内嵌保存恢复且批量共享一份",
+    "缺失图片阻止导出，不静默漏遮挡",
+    "项目不接受外部图片地址",
+    "图片真正导出，静音视频拼接自动补音轨",
+    "图片在指定时间可见，前后恢复底图",
+    "PNG透明区域保留底图",
+    "批量图片覆盖目标片段末尾，不只停留一帧",
+    "无打码无补边，即使适配选项打开也采用复制",
+    "被截断的素材名称及当前标题有完整悬浮提示",
+    "界面模糊默认10且滑块最大10",
+    "图片选项通过真实文件选择导入",
+    "图片四角自由缩放更新区域宽高",
+    "批量按钮实际应用整段及同一图片",
+    "拖动视频轨道跨视频准确定位",
+    "打码轨道空白处也可跨视频拖动定位",
+    "打码时间两端仍可编辑，不被播放拖动抢占",
+    "播放中拖动后恢复播放",
+    "页面没有脚本异常"
+  ],
+  "outputs": [
+    {
+      "duration": 10,
+      "size": 115542,
+      "width": 320,
+      "height": 180,
+      "fps": 25,
+      "codec": "h264",
+      "audioCodec": "aac",
+      "mode": "encode",
+      "name": "图片验收_001.mp4",
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/v15-TD1oGs/out/图片验收_001.mp4"
+    }
+  ],
+  "source": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/v15-TD1oGs/source.mp4",
+  "silent": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/v15-TD1oGs/silent.mp4",
+  "png": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/v15-TD1oGs/overlay.png",
+  "environment": "darwin FFmpeg + isolated Chrome/Edge; not Windows native runtime"
+}

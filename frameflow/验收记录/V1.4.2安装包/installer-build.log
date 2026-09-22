@@ -1,0 +1,29 @@
+MakeNSIS v3.04 - Copyright 1999-2018 Contributors
+See the file COPYING for license details.
+Credits can be found in the Users Manual.
+
+Command line defined: "APP_VERSION=1.4.2"
+Command line defined: "PAYLOAD=/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/FrameFlow-Windows-x64"
+Command line defined: "SETUP_OUT=/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/FrameFlow-v1.4.2-Windows-x64-Setup.exe"
+Command line defined: "DELETE_MANIFEST=/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/installer-delete.nsh"
+Command line defined: "PAYLOAD_KB=566275"
+Processing script file: "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/windows版/installer.nsi" (UTF8)
+
+Processed 1 file, writing output (x86-unicode):
+
+Output: "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/FrameFlow-v1.4.2-Windows-x64-Setup.exe"
+Install: 5 pages (320 bytes), 4 sections (1 required) (131168 bytes), 798 instructions (22344 bytes), 1366 strings (8814 bytes), 1 language table (322 bytes).
+Uninstall: 3 pages (256 bytes), 1 section (32792 bytes), 421 instructions (11788 bytes), 1196 strings (8078 bytes), 1 language table (282 bytes).
+Datablock optimizer saved 26498 bytes (~0.0%).
+
+Using lzma (compress whole) compression.
+
+EXE header size:               53760 / 38400 bytes
+Install code:                          (97896 bytes)
+Install data:                          (579914193 bytes)
+Uninstall code+data:                   (99698 bytes)
+Compressed data:           159036723 / 580111787 bytes
+CRC (0x2AE61413):                  4 / 4 bytes
+
+Total size:                159090487 / 580150191 bytes (27.4%)
+

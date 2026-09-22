@@ -1,0 +1,101 @@
+{
+  "checks": [
+    "启动为空素材",
+    "默认分段45分钟",
+    "前进实际解码到新帧",
+    "快退实际解码恢复原帧",
+    "进度条跳转且画面变化",
+    "真实播放与暂停",
+    "全素材时间线",
+    "仅一个顶部功能按钮",
+    "添加打码与时间条",
+    "真实 FFmpeg 预览进入弹窗",
+    "拼接与适配可以取消且状态一致",
+    "取消适配时混合尺寸拼接明确提示冲突",
+    "两个选项可以重新勾选",
+    "桌面界面真实导出完成",
+    "结果列表显示真实文件",
+    "结果显示实际用时",
+    "结果用时不会继续增长",
+    "实际预检与未勾选状态一致",
+    "取消拼接适配后确实分别输出原尺寸",
+    "自动保存落盘含取消状态",
+    "重载恢复全部素材、打码、输出设置和取消状态"
+  ],
+  "outputs": [
+    {
+      "duration": 3,
+      "size": 393222,
+      "width": 320,
+      "height": 180,
+      "fps": 25,
+      "codec": "h264",
+      "audioCodec": "aac",
+      "mode": "encode",
+      "name": "独立桌面验收_001.mp4",
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-vIzybi/桌面应用导出/独立桌面验收_001.mp4"
+    },
+    {
+      "duration": 1,
+      "size": 137326,
+      "width": 320,
+      "height": 180,
+      "fps": 25,
+      "codec": "h264",
+      "audioCodec": "aac",
+      "mode": "encode",
+      "name": "独立桌面验收_002.mp4",
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-vIzybi/桌面应用导出/独立桌面验收_002.mp4"
+    },
+    {
+      "duration": 3,
+      "size": 4117,
+      "width": 180,
+      "height": 320,
+      "fps": 30,
+      "codec": "h264",
+      "audioCodec": "",
+      "mode": "copy",
+      "name": "独立桌面验收_003.mp4",
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-vIzybi/桌面应用导出/独立桌面验收_003.mp4"
+    }
+  ],
+  "joinedOutputs": [
+    {
+      "duration": 3,
+      "size": 393289,
+      "width": 320,
+      "height": 180,
+      "fps": 25,
+      "codec": "h264",
+      "audioCodec": "aac",
+      "mode": "encode",
+      "name": "桌面验收_001.mp4",
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-vIzybi/桌面应用导出/桌面验收_001.mp4"
+    },
+    {
+      "duration": 3,
+      "size": 140873,
+      "width": 320,
+      "height": 180,
+      "fps": 25,
+      "codec": "h264",
+      "audioCodec": "aac",
+      "mode": "encode",
+      "name": "桌面验收_002.mp4",
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-vIzybi/桌面应用导出/桌面验收_002.mp4"
+    },
+    {
+      "duration": 1,
+      "size": 2922,
+      "width": 320,
+      "height": 180,
+      "fps": 25,
+      "codec": "h264",
+      "audioCodec": "aac",
+      "mode": "encode",
+      "name": "桌面验收_003.mp4",
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-vIzybi/桌面应用导出/桌面验收_003.mp4"
+    }
+  ]
+}

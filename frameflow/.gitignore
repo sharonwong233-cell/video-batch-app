@@ -1,0 +1,14 @@
+.DS_Store
+._*
+FrameFlow-v*.zip
+FrameFlow-Windows-x64/
+.build-cache/
+runtime/
+*.app/
+FrameFlow-v*-Setup.exe
+handoff/
+.dev-user-data/
+node_modules/
+runtime-test/
+验收记录/**/*.mp4
+验收记录/**/*.png

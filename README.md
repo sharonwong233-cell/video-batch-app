@@ -1,5 +1,15 @@
 # VideoBatch — 视频批量拼接切分工具
 
+## FrameFlow V1.5.1（2026-09-21 同步）
+
+当前课程剪辑软件的后续工程位于 **[frameflow/](frameflow/)**，原 VideoBatch 代码与提交历史保留。
+
+- [FrameFlow 使用与开发说明](frameflow/README.md)
+- [接续开发上下文](frameflow/HANDOFF.md) · [版本变化](frameflow/CHANGELOG.md)
+- [GitHub 同步与大文件说明](frameflow/GITHUB.md)
+
+以下内容为原 VideoBatch 项目的说明，不代表 FrameFlow 的功能、依赖或许可证。
+
 一个基于 Electron 的桌面应用，用于**批量拼接视频素材并按分钟切分**成统一长度的片段。支持剪片头、手动排序、色块打码。
 
 ## 功能特性

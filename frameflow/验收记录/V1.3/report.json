@@ -1,0 +1,63 @@
+{
+  "health": {
+    "ready": true,
+    "ffmpeg": "ffmpeg version 9.0.1-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 9.0.1-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "checks": [
+    "引擎及元数据工具可运行",
+    "重新读取真实素材参数",
+    "真实预览返回 PNG",
+    "模糊 预览按时间范围生效",
+    "马赛克 预览按时间范围生效",
+    "兼容播放副本保留画面比例和时长",
+    "硬件失败真实回退软件编码",
+    "真实生成三个片段并保留尾段",
+    "输出格式 验收课程_001.mp4",
+    "全片音视频可解码 验收课程_001.mp4",
+    "输出格式 验收课程_002.mp4",
+    "全片音视频可解码 验收课程_002.mp4",
+    "输出格式 验收课程_003.mp4",
+    "全片音视频可解码 验收课程_003.mp4",
+    "纯色只在指定时间生效",
+    "混合比例补黑边且无音轨素材正常处理",
+    "已有输出拒绝覆盖",
+    "源视频字节未改变",
+    "取消后不发布片段",
+    "相同编码无效果走无损路径",
+    "无损路径生成可解码视频",
+    "临时文件清理完成",
+    "项目持久化保留时间范围与全部素材"
+  ],
+  "outputs": [
+    {
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-iKmG0n/输出 中文/验收课程_001.mp4",
+      "name": "验收课程_001.mp4",
+      "duration": 3,
+      "size": 327864,
+      "width": 320,
+      "height": 180,
+      "fps": 25
+    },
+    {
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-iKmG0n/输出 中文/验收课程_002.mp4",
+      "name": "验收课程_002.mp4",
+      "duration": 3,
+      "size": 142531,
+      "width": 320,
+      "height": 180,
+      "fps": 25
+    },
+    {
+      "path": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-iKmG0n/输出 中文/验收课程_003.mp4",
+      "name": "验收课程_003.mp4",
+      "duration": 1,
+      "size": 2711,
+      "width": 320,
+      "height": 180,
+      "fps": 25
+    }
+  ],
+  "source": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-iKmG0n/横屏 O'Brien.mp4",
+  "portrait": "/Users/a1-6/.codex/.chatgpt-projects/g-p-6a8ff1b29134819191b276e3addd0a98/.build-cache/acceptance-iKmG0n/无音轨竖屏.mp4"
+}

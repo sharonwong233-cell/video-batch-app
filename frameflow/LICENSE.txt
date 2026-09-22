@@ -1,0 +1,6 @@
+FrameFlow — All rights reserved.
+
+本工程原定位为闭源自用；用户于2026-09-21确认将源文件公开托管。
+除第三方组件各自的许可证外，本FrameFlow目录不授予额外开源许可，
+不自动沿用同仓库中旧VideoBatch项目的MIT声明。
+Electron、Chromium、FFmpeg、NSIS等第三方许可证随发行组件保留。
